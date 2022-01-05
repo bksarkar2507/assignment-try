@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.first-section{
+    display: flex;
+}
+.half{
+    width: 40%;
+    border: 2px solid tomato;
+    margin: 0 5% 0 5%;
+}
+.half img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+.title{
+    border-left: 5px solid chocolate;
+}
+.color-title{
+    color: deeppink;
+}
+section{
+    margin: 0 5% 0 5%;
+    border: 2px solid red;
+    margin-bottom: 20px;    
+}
+.button{
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+.mission{
+    display: flex;
+    border: 2px solid blue;
+    width: 80%;
+    margin: 0 10%;
+    margin-bottom: 70px;
+}
+.mission-item{
+    border: 2px solid orange;
+    width: 35%;
+    margin: 0 1% 0 1%;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.mission-item h3{
+    font-size: 20px;
+}
+.mission-item img{
+    width: 50%;
+}
+#first-item{
+    background-color: paleturquoise;
+}
+#second-item{
+    background-color: pink;
+}
+#third-item{
+    background-color: navajowhite;
+}
+
+.flexible{
+    display: flex;
+}
+.half h2{
+    text-align: left;
+    font-size: 35px;
+}
+.half p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.image-part{
+    width: 30%;
+}
+.description-part{
+    width: 70%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+footer span{
+    color: crimson;
+}
