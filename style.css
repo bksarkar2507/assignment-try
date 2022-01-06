@@ -1,36 +1,14 @@
+/* common css */
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.first-section{
-    display: flex;
-}
 .half{
     width: 40%;
-    border: 2px solid tomato;
     margin: 0 5% 0 5%;
 }
 .half img{
     width: 100%;
-}
-#web-id{
-    border: 2px solid ;
-    margin-top: 50px;
-}
-h1{
-    font-size: 50px;
-}
-.title{
-    border-left: 5px solid chocolate;
-    padding-left: 10px;
-}
-.color-title{
-    color: deeppink;
-}
-section{
-    margin: 0 5% 0 5%;
-    border: 2px solid red;
-    margin-bottom: 20px;    
 }
 .button{
     text-decoration: none;
@@ -39,20 +17,64 @@ section{
     padding: 15px 30px;
     border-radius: 7px;
 }
-
+.color-title{
+    color: deeppink;
+}
+h1{
+    font-size: 50px;
+}
+section{
+    margin: 0 5% 0 5%;
+    margin-bottom: 20px;    
+}
 h2{
     font-size: 45px;
     text-align: center;
 }
+.flexible{
+    display: flex;
+}
+.half h2{
+    text-align: left;
+    font-size: 35px;
+}
+.half p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.thirty-percent-part{
+    width: 30%;
+}
+.seventy-percent-part{
+    width: 70%;
+}
+
+
+
+/* first section css */
+.first-section{
+    display: flex;
+}
+.first-section img{
+    border-radius: 50%;
+}
+.title{
+    padding-left: 10px;
+}
+#profile-img{
+    width: 90%;
+}
+
+
+
+/* target section */
 .target{
     display: flex;
-    border: 2px solid blue;
     width: 80%;
     margin: 0 10%;
     margin-bottom: 70px;
 }
 .target-item{
-    border: 2px solid orange;
     width: 35%;
     margin: 0 1% 0 1%;
     padding: 10px 25px;
@@ -74,23 +96,26 @@ h2{
     background-color: rgba(26, 161, 32, 0.582);
 }
 
-.flexible{
-    display: flex;
+
+
+/* des section */
+#why-web{
+    margin-top: 50px;
 }
-.half h2{
-    text-align: left;
-    font-size: 35px;
+
+
+
+/* education section */
+.edu-class h4{
+    font-size: 25px;
 }
-.half p{
-    font-size: 20px;
-    margin-bottom: 40px;
+.edu-institude li{
+    line-height: 0.2;
 }
-.thirty-percent-part{
-    width: 30%;
-}
-.seventy-percent-part{
-    width: 70%;
-}
+
+
+
+/* footer section */
 footer{
     text-align: center;
     background-color: black;
@@ -106,10 +131,3 @@ footer span{
     color: crimson;
 }
 
-
-#education{
-    border: 2px solid green;
-}
-#education-institude{
-    border: 2px solid blue;
-}
